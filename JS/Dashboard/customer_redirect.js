@@ -1,6 +1,6 @@
 {
     let sendAuthRequest = () => {
-        let url = "http://localhost:3000/api/auth/";
+        let url = "https://glocal-shop.herokuapp.com/api/auth/";
         let token = JSON.parse(localStorage.getItem('glocal-customer-auth-token'))
         let header = new Headers();
         header.append('Authorization', `Bearer ${token}`);

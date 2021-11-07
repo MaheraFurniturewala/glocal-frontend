@@ -7,7 +7,7 @@
 
       $.ajax({
         type: "post",
-        url: "http://localhost:3000/api/shops",
+        url: "https://glocal-shop.herokuapp.com/api/shops",
         data: shopKeeperSignUpForms.serialize(),
         success: function (data) {
           localStorage.setItem("shopKeeper", JSON.stringify(data));

@@ -4,7 +4,7 @@ list_body = document.getElementById("history");
 //fetch all the perks
 $.ajax({
   type: "get",
-  url: "http://localhost:3000/api/transaction/",
+  url: "https://glocal-shop.herokuapp.com/api/transaction/",
   success: function (data) {
     let all_trans = data.data;
 

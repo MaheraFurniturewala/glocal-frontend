@@ -4,7 +4,7 @@ table_body = document.getElementById('perk-body');
 //fetch all the perks
 $.ajax({
   type: "get",
-  url: "http://localhost:3000/api/perks",
+  url: "https://glocal-shop.herokuapp.com/api/perks",
   success: function (data) {
     let all_perks = data.data;
     
