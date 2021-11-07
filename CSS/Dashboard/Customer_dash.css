@@ -130,3 +130,10 @@ body {
 .list-items div{
   width: 30vw;
 }
+
+.list-items button{
+  width: 30vw;
+  height: fit-content;
+  margin-top: 20px;
+  color:black;
+}

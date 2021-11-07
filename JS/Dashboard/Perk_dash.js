@@ -2,6 +2,8 @@ let shop_details = JSON.parse(localStorage.getItem('shop_details'));
 let shop_id = shop_details._id;
 table_body = document.getElementById('perk-body');
 //fetch all the perks
+
+
 $.ajax({
   type: "get",
   url: "https://glocal-shop.herokuapp.com/api/perks",
