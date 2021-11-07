@@ -1,93 +1,98 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Josefin+Slab:wght@500;600;700&display=swap");
 
-
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    outline: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
 }
 
-body{
-    background-color:#5e42a6;
-    font-family: "Josefin Slab", serif;
+body {
+  background-color: #5e42a6;
+  font-family: "Josefin Slab", serif;
 }
 
-.navbar-left{
-    width: 30%;
+.navbar-left {
+  width: 30%;
 }
-.navbar{
-    display: flex;
-    height: 5.5em;
-}
-
-.navbar-item{
-    display: inline-block;
-    margin:1.5em;
-    border: 2px solid white;
-    padding: 0.3em;
-    border-radius:5px;
-    color: white;
-    transition: background-color 350ms;
+.navbar {
+  display: flex;
+  height: 5.5em;
 }
 
-.navbar-right-items{
-    display: flex;
-    position: absolute;
-    right: 0.5em;
-    
-}
-.navbar-item a{
-    color:inherit;
-    text-decoration: none;
-}
-
-hr{
-    width: 96%;
-    margin: 0 auto;
+.navbar-item {
+  display: inline-block;
+  margin: 1.5em;
+  border: 2px solid white;
+  padding: 0.3em;
+  border-radius: 5px;
+  color: white;
+  transition: background-color 350ms;
+  padding: 10px 20px;
+  font-size: 1.4rem;
+  font-weight: 600;
 }
 
-.navbar-item:hover{
-    background-color: white;
-    color: #5e42a6;
+.navbar-right-items {
+  display: flex;
+  position: absolute;
+  right: 0.5em;
+}
+.navbar-item a {
+  color: inherit;
+  text-decoration: none;
 }
 
-.charts{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 1.6em;
+hr {
+  width: 96%;
+  margin: 20px auto;
 }
 
-.chart1,.chart2,.chart3,.review{
-    background-color:#c9c9c9 ;
-    margin:20px;
-    border-radius: 20px;
-    padding:20px !important;
-    
+.navbar-item:hover {
+  background-color: white;
+  color: #5e42a6;
 }
 
-canvas{
-    margin:auto;
-    width:40vw !important;
-    height:auto !important;
+.charts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 1.6em;
 }
 
-.review{
-    display:flex;
-}
-.review div{
-    margin:auto;
-    display: flex;
-    flex-direction: column;
-}
-
-.emoji1,.emoji2,.emoji3{
-    font-size: 10vw;
-    display: block;
+.chart1,
+.chart2,
+.chart3,
+.review {
+  background-color: #c9c9c9;
+  margin: 20px;
+  border-radius: 20px;
+  padding: 20px !important;
 }
 
-.review div p{
-    display:block;
-    font-size:6vw;
-    margin: auto;
+canvas {
+  margin: auto;
+  width: 40vw !important;
+  height: auto !important;
+}
+
+.review {
+  display: flex;
+}
+.review div {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.emoji1,
+.emoji2,
+.emoji3 {
+  font-size: 10vw;
+  display: block;
+}
+
+.review div p {
+  display: block;
+  font-size: 6vw;
+  margin: auto;
 }
