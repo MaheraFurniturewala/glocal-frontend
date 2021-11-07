@@ -18,7 +18,7 @@ form.innerHTML += `<input type="hidden" name="shop" value="${shop_details._id}">
   
         $.ajax({
           type: "post",
-          url: "http://localhost:3000/api/perks/",
+          url: "https://glocal-shop.herokuapp.com/api/perks/",
           data: addPerkForm.serialize(),
           success: function (data) {
               console.log(data.data);

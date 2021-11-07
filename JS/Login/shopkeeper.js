@@ -8,7 +8,7 @@
   
         $.ajax({
           type: "post",
-          url: "http://localhost:3000/api/shops",
+          url: "https://glocal-shop.herokuapp.com/api/shops",
           data: shopKeeperSignUpForm.serialize(),
           success: function (data) {
             console.log(data);
@@ -32,7 +32,7 @@
   
         $.ajax({
           type: "post",
-          url: "http://localhost:3000/api/auth",
+          url: "https://glocal-shop.herokuapp.com/api/auth",
           data: shopKeeperSignInForm.serialize(),
           success: function (data) {
             console.log(data.data);

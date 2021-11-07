@@ -13,7 +13,7 @@ Name.innerText = shop_details.name;
   
         $.ajax({
           type: "post",
-          url: `http://localhost:3000/api/transaction/${shop_id}`,
+          url: `https://glocal-shop.herokuapp.com/api/transaction/${shop_id}`,
           data: InitializePaymentForm.serialize(),
           success: function (data) {
             console.log(data.data);
