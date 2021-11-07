@@ -16,7 +16,6 @@ $.ajax({
       user_pending.forEach((trans,index)=>{
         trans_item = document.createElement('li');
         trans_item.innerHTML = `
-        
         <li class="list-items">
         <div>
           <p>Shop:${trans.shopName} &nbsp&nbsp&nbsp; Amount: ${trans.amount}</p>
