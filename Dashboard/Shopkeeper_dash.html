@@ -1,49 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shopkeeper Dashboard</title>
-    <link rel="stylesheet" href="../CSS/Dashboard/Shopkeeper_dash.css">
+    <link rel="stylesheet" href="../CSS/Dashboard/Shopkeeper_dash.css" />
 
     <script src="../JS/Dashboard/shopkeeper_redirect.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <nav class="navbar">
-        <div class="navbar-left">
-            <img class="logo" src="" alt="">
-        </div>
-        <div class="navbar-right">
-            <ul class="navbar-right-items">
-                <li class="navbar-item"><a href="New_Perk_dash.html">+ New Perk</a></li>
-                <li class="navbar-item"><a href="Perk_dash.html">View Perks</a></li>
-                <li class="navbar-item"><a href="">Birthday Offers</a></li>
-                <li class="navbar-item"><a href="Shopkeeper_New_Payment.html">New Payment</a></li>
-                <li class="navbar-item"><a href="Payment_history.html">Payment History</a></li>
-                <li class="navbar-item" id="logout-btn"><a href="../index.html">Log Out</a></li>
-            </ul>
-        </div>
+      <div class="navbar-left">
+        <img class="logo" src="" alt="" />
+      </div>
+      <div class="navbar-right">
+        <ul class="navbar-right-items">
+          <li class="navbar-item">
+            <a href="../Loan/New_Loan.html">+ New Loan</a>
+          </li>
+          <li class="navbar-item">
+            <a href="../Loan/Loan_History.html">View Loans</a>
+          </li>
+          <li class="navbar-item">
+            <a href="New_Perk_dash.html">+ New Perk</a>
+          </li>
+          <li class="navbar-item"><a href="Perk_dash.html">View Perks</a></li>
+          <li class="navbar-item"><a href="">Birthday Offers</a></li>
+          <li class="navbar-item">
+            <a href="Shopkeeper_New_Payment.html">New Payment</a>
+          </li>
+          <li class="navbar-item">
+            <a href="Payment_history.html">Payment History</a>
+          </li>
+          <li class="navbar-item" id="logout-btn">
+            <a href="../index.html">Log Out</a>
+          </li>
+        </ul>
+      </div>
     </nav>
-    <hr>
+    <hr />
     <div class="container charts">
-        <div class="chart1">
-            <canvas id="myChart1" width="400" height="400"></canvas>
+      <div class="chart1">
+        <canvas id="myChart1" width="400" height="400"></canvas>
+      </div>
+      <div class="chart2">
+        <canvas id="myChart2" width="400" height="400"></canvas>
+      </div>
+      <div class="chart3">
+        <canvas id="myChart3" width="400" height="400"></canvas>
+      </div>
+      <div class="review">
+        <div>
+          <span class="emoji1">😔</span>
+          <p>&nbsp;23%</p>
         </div>
-        <div class="chart2">
-            <canvas id="myChart2" width="400" height="400"></canvas>
+        <div>
+          <span class="emoji2">😐</span>
+          <p>&nbsp;31%</p>
         </div>
-        <div class="chart3">
-            <canvas id="myChart3" width="400" height="400"></canvas>
+        <div>
+          <span class="emoji3">😊</span>
+          <p>&nbsp;&nbsp;23%</p>
         </div>
-        <div class="review">
-            <div ><span class="emoji1">😔</span><p>&nbsp;23%</p></div>
-            <div ><span class="emoji2">😐</span><p>&nbsp;31%</p></div>
-            <div ><span class="emoji3">😊</span><p>&nbsp;&nbsp;23%</p></div>
-        </div>
+      </div>
     </div>
-</body>
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script src="../JS/Dashboard/Shopkeeper_dash.js"></script>
-<script src="../JS/Dashboard/shopkeeper_handler.js"></script>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="../JS/Dashboard/Shopkeeper_dash.js"></script>
+  <script src="../JS/Dashboard/shopkeeper_handler.js"></script>
 </html>
