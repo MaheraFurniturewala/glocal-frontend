@@ -10,7 +10,7 @@ form.innerHTML += `<input type="hidden" name="shop" value="${shop_details._id}">
 {
     let AddPerk = function () {
         let addPerkForm = $("#addPerk");
-        data = addPerkForm.serialize() + `&`;
+        data = addPerkForm.serialize();
         console.log(data);
   
       addPerkForm.submit(function (e) {
