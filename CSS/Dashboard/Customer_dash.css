@@ -17,7 +17,7 @@ body {
 
 .navbar {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .search-bar {
@@ -41,21 +41,10 @@ body {
   font-size: 1.3rem;
 }
 
-.notification-bell {
-  color: #f79f1f;
-  font-weight: 800;
-}
-
-.notification-freq {
-  color: #ee5253;
-  width: 10px;
-  font-weight: 800;
-}
-
 .main-hr {
   width: 90%;
   border: 1px solid white;
-  margin: 0 auto;
+  margin: 25px auto;
 }
 
 .main-content {
@@ -92,41 +81,44 @@ body {
   text-align: left;
 }
 
-.nav-btns{
-  display: flex;
+.nav-btns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: absolute;
+  top: 5px;
+  right: 5px;
 }
 
-#logout-btn{
+#logout-btn {
   width: 4.5em;
   font-size: 1.6rem;
   margin: 1.5em;
-  border:2px solid white;
+  border: 2px solid white;
   border-radius: 5px;
-
 }
 
-
-#pending-btn{
+#pending-btn {
   width: 9.5em;
   font-size: 1.6rem;
   height: fit-content;
-  border:2px solid white;
+  border: 2px solid white;
   border-radius: 5px;
 }
 
-#pending-btn a, #logout-btn a{
-  color:white;
+#pending-btn a,
+#logout-btn a {
+  color: white;
   text-decoration: none;
-  
 }
 
-#pending-btn a:hover, #logout-btn a:hover{
-  color:#8854d0;
+#pending-btn a:hover,
+#logout-btn a:hover {
+  color: #8854d0;
 }
 
-.list-items{
+.list-items {
   display: flex;
 }
-.list-items div{
+.list-items div {
   width: 30vw;
 }
