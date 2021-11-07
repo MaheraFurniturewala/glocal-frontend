@@ -123,3 +123,10 @@ body {
 #pending-btn a:hover, #logout-btn a:hover{
   color:#8854d0;
 }
+
+.list-items{
+  display: flex;
+}
+.list-items div{
+  width: 30vw;
+}
