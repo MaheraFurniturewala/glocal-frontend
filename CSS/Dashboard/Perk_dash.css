@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Josefin+Slab:wght@500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  color: white;
+}
+
+body {
+  background-color: #5e42a6;
+  font-family: "Josefin Slab", serif;
+  text-align: center;
+  padding: 10px;
+}
+
+/* .main-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 70%;
+  margin: 30px auto;
+  font-size: 1.6rem;
+} */
+
+.cta-btns {
+  background-color: #8854d0;
+  transition: background-color 400ms;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-size: inherit;
+  margin: 20px;
+}
+
+.cta-btns:hover {
+  color: #5e42a6;
+  background-color: white;
+  cursor: pointer;
+}
+
+.primary-heading {
+  font-size: 3.5rem;
+  text-decoration: underline;
+  margin-top: 20px;
+}
+
+table {
+  font-size: 1.3rem;
+  margin: 50px auto;
+}
+
+table,
+tr,
+th,
+td {
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+
+th {
+  padding: 10px;
+}
+
+.perk-details {
+  width: 50%;
+}
+
+.perk-performance {
+  width: 20vw !important;
+  height: auto !important;
+}
+
+.perk-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  border: 2px solid white;
+  padding: 10px;
+  display: none;
+}
+
+.perk-amt-desc-sec {
+  margin: auto 0;
+  text-align: left;
+}
+
+.perk-amt-desc,
+.cust-freq-desc,
+.cust-feedback {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.cust-feedback {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+}

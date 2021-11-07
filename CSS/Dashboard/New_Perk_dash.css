@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Josefin+Slab:wght@500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  color: white;
+}
+
+body {
+  background-color: #5e42a6;
+  font-family: "Josefin Slab", serif;
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+.main-hr {
+  width: 90%;
+  border: 1px solid white;
+  margin: 0 auto;
+}
+
+.main-content {
+
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+  width: 70%;
+  margin: 30px auto;
+  font-size: 1.6rem;
+}
+.main-content form{
+    border:2px solid white;
+    padding: 15px;
+}
+
+.main-content div {
+  margin: 20px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.main-content div p {
+  margin: 0;
+}
+
+.cta-btns {
+  background-color: #8854d0;
+  transition: background-color 400ms;
+}
+
+.cta-btns:hover {
+  color: #5e42a6;
+  background-color: white;
+  cursor: pointer;
+}
+
+.main-content div ol {
+  text-align: left;
+}
+
+.form-check input{
+    margin: 0 !important;
+}

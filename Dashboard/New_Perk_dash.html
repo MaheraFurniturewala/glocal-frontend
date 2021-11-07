@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Linear Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"
+    />
+
+    <!-- Font Awesome CDN -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    />
+    <!-- External CSS -->
+    <link rel="stylesheet" href="../CSS/Dashboard/New_Perk_dash.css" />
+    <script src="../JS/Dashboard/shopkeeper_redirect.js"></script>
+    <title>Add Perk</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="col-md-8 offset-md-2">
+        
+      </div>
+      <h1 class="offset-6" id="Name">
+        Shop Name&emsp;
+      </h1>
+    </nav>
+
+    <hr class="main-hr" />
+
+    <main class="main-content">
+        <form method="POST" id="addPerk">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label" >Perk Name</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="perkName">
+            </div>
+            
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="type" data-value="discount" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Discount
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="type" data-value="cashback"id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Cashback
+                </label>
+              </div>
+
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Perk Value</label>
+              <input type="number" name="value" class="form-control" id="exampleInputPassword1">
+            </div>
+
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Max Value</label>
+              <input type="number" name="maxValue" class="form-control" id="exampleInputPassword1">
+            </div>
+
+            <button type="submit" class="cta-btns">
+              <a>Add Perk</a>
+            </button>
+          </form>
+
+     
+    </main>
+
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"
+  ></script>
+
+    <script src="../JS/Dashboard/New_Perk_dash.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

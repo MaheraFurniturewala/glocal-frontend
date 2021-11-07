@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Josefin+Slab:wght@500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  color: white;
+}
+
+body {
+  background-color: #5e42a6;
+  font-family: "Josefin Slab", serif;
+  text-align: center;
+  padding: 10px;
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.search-bar {
+  border: none;
+  font-size: 1.3rem;
+}
+
+.search-bar::placeholder {
+  font-size: 1.3rem;
+}
+
+.search-btn {
+  height: 50px;
+  background-color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+}
+
+.fa-search {
+  color: grey;
+  font-size: 1.3rem;
+}
+
+.notification-bell {
+  color: #f79f1f;
+  font-weight: 800;
+}
+
+.notification-freq {
+  color: #ee5253;
+  width: 10px;
+  font-weight: 800;
+}
+
+.main-hr {
+  width: 90%;
+  border: 1px solid white;
+  margin: 0 auto;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 70%;
+  margin: 30px auto;
+  font-size: 1.6rem;
+}
+
+.main-content div {
+  margin: 20px;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.main-content div p {
+  margin: 0;
+}
+
+.cta-btns {
+  background-color: #8854d0;
+  transition: background-color 400ms;
+}
+
+.cta-btns:hover {
+  color: #5e42a6;
+  background-color: white;
+  cursor: pointer;
+}
+
+.main-content div ol {
+  text-align: left;
+}
