@@ -3964,7 +3964,7 @@ body.is-preload #sidebar nav ul li {
   right: 10px;
 }
 
-.user-registration a{
+.user-registration a {
   text-decoration: none;
   border: 0;
 }
@@ -3978,6 +3978,10 @@ body.is-preload #sidebar nav ul li {
   font-family: inherit;
   font-size: 0.75vw;
   transition: background-color 400ms;
+}
+
+.menu li {
+  color: rgba(255, 255, 255, 0.746);
 }
 
 @media (max-width: 1280px) {
@@ -4016,4 +4020,12 @@ body.is-preload #sidebar nav ul li {
 .login-btn:hover,
 .signup-btn:hover {
   background-color: #fff;
+}
+
+.devpost-logo {
+  width: 150px;
+}
+
+a {
+  border-bottom: 0;
 }
