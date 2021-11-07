@@ -91,3 +91,8 @@ body {
 .main-content div ol {
   text-align: left;
 }
+
+#logout-btn{
+  width: 4.5em;
+  font-size: 1.6rem;
+}
